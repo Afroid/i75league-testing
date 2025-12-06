@@ -13,7 +13,7 @@ public class HomePage extends BasePage {
         super(driver);
     }
 
-    public void open() throws InterruptedException {
+    public void open() {
         open(URL); // protected helper from BasePage
     }
 
